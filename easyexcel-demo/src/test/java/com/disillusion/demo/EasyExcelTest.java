@@ -36,6 +36,7 @@ public class EasyExcelTest {
 
     @Test 
     // 测试动态忽略某些字段，导出特定字段。
+    @SuppressWarnings("deprecation")
     void contextLoads2() {
         Set<String> exportColumns = new HashSet<>();
         exportColumns.add("id");
